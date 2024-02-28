@@ -6,13 +6,34 @@ defineProps({
 })
 
 const count = ref(0)
+
+import { post, get } from 'aws-amplify/api';
+
+async function postTodo() {
+  try {
+    const restOperation = get({
+      apiName: 'flaskvueapi',
+      path: '/item'
+    });
+
+    const { body } = await restOperation.response;
+    const response = await body.json();
+
+    console.log('POST call succeeded');
+    console.log(response);
+  } catch (e) {
+    console.log('POST call failed: ', e);
+  }
+}
+
+
 </script>
 
 <template>
   <h1>{{ msg }}</h1>
 
   <div class="card">
-    <button type="button" @click="count++">count is {{ count }}</button>
+    <button type="button" @click="postTodo()">count is {{ count }}</button>
     <p>
       Edit
       <code>components/HelloWorld.vue</code> to test HMR
