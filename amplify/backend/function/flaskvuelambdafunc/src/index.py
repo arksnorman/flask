@@ -6,7 +6,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Constant variable with path prefix
-BASE_ROUTE = "/item"
+BASE_ROUTE = "/items"
 
 @app.route(BASE_ROUTE, methods=['GET'])
 def list_songs():

@@ -13,7 +13,7 @@ async function postTodo() {
   try {
     const restOperation = get({
       apiName: 'flaskvueapi',
-      path: '/item'
+      path: '/items'
     });
 
     const { body } = await restOperation.response;
