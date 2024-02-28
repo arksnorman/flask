@@ -17,6 +17,12 @@
           "appId": "d3ebz4ibisf6zb",
           "type": "cicd"
         }
+      },
+      "function": {
+        "flaskvuelambdafunc": {}
+      },
+      "auth": {
+        "flaskvue": {}
       }
     }
   }
