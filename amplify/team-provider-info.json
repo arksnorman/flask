@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-flaskvue-dev-181347-authRole",
+      "UnauthRoleArn": "arn:aws:iam::349523216196:role/amplify-flaskvue-dev-181347-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::349523216196:role/amplify-flaskvue-dev-181347-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-flaskvue-dev-181347-deployment",
+      "UnauthRoleName": "amplify-flaskvue-dev-181347-unauthRole",
+      "StackName": "amplify-flaskvue-dev-181347",
+      "StackId": "arn:aws:cloudformation:eu-west-2:349523216196:stack/amplify-flaskvue-dev-181347/1e21b2f0-d665-11ee-a60e-0a79222af827",
+      "AmplifyAppId": "d3ebz4ibisf6zb"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3ebz4ibisf6zb",
+          "type": "cicd"
+        }
+      }
+    }
+  }
+}
